@@ -5,8 +5,19 @@ Ceci est un exemple simple d'une application asp.net core MVC.
 La logique de l'application et l'application web sont dans deux projets différents. 
 Ceci va rendre l'application testable et rendre l'application indépendante de la technologie utilisé pour le UI.
 
+## Réalisation
+
+L'utilisateur peut se créer un compte à l'aide du projet MVC de base avec authentification.
+
+Dans le Projet Application se trouve une class nommé Executor qui va servir à executer toutes les requêtes de l'application.
+Une requête comme une action de Lecture avec l'interface IRequest.
+Une command comme une action d'écriture avec l'interface ICommand.
+On sépare les classes par Dossier avec le nom de l'entité.
+
+## Pull request
 L'exemple ici est très simple, il manque plusieurs chose.
  - Patron repository pour l'accès au donnée
  - Validation des données entrés dans le formulaire
  - Créer un projet Persistance et enlever le DbContext du projet Application
  - Continuer à ajouter les fonctionnalitées du RestoConcept!
+ - ...
