@@ -1,0 +1,48 @@
+@model IEnumerable<Application.Item>
+
+<h1>Mes items</h1>
+
+<a class="btn btn-primairy" data-toggle="modal" data-target="#addItemModal">Ajouter</a>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Nom</th>
+			<th>Prix</th>
+		</tr>
+	</thead>
+	<tbody>
+        @foreach (var item in Model)
+        {
+		<tr>
+			<td>@item.Name</td>
+			<td>@item.Price</td>
+		</tr>
+        }
+	</tbody>
+</table>
+
+<div id="addItemModal" class="modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">Ajouter un item</h3>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+	  <form asp-action="Create">
+      <div class="modal-body form-group">
+		  <label>Nom de l'item</label>
+		  <input class="form-control" name="Name" type="Text" />
+		  <label>Prix</label>
+		  <input class="form-control" name="Price" type="Number" step="0.01" min="0" />
+      </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary">Ajouter l'item</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+      </div>
+	  </form>
+    </div>
+  </div>
+</div>
