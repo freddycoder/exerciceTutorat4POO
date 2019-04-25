@@ -17,7 +17,7 @@ Il est possible d'ajouter des items et d'afficher la liste des items.
 Dans le Projet Application se trouve une class nommé Executor qui va servir à executer toutes les requêtes de l'application.
 Une requête comme une action de Lecture avec l'interface IRequest.
 Une command comme une action d'écriture avec l'interface ICommand.
-On sépare les classes par Dossier avec le nom de l'entité.
+Les classes sont séparées par des dossier du nom de leurs entités.
 
 ## Pour la suite
 L'exemple ici est très simple, il manque plusieurs chose.
