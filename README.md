@@ -9,15 +9,19 @@ Ceci va rendre l'application testable et rendre l'application indépendante de l
 
 L'utilisateur peut se créer un compte à l'aide du projet MVC de base avec authentification.
 
+Il est possible d'ajouter des items et d'afficher la liste des items.
+
+## À propos du code
+
 Dans le Projet Application se trouve une class nommé Executor qui va servir à executer toutes les requêtes de l'application.
 Une requête comme une action de Lecture avec l'interface IRequest.
 Une command comme une action d'écriture avec l'interface ICommand.
 On sépare les classes par Dossier avec le nom de l'entité.
 
-## Pull request
+## Pour la suite
 L'exemple ici est très simple, il manque plusieurs chose.
  - Patron repository pour l'accès au donnée
- - Validation des données entrés dans le formulaire
+ - Validation des données avant l'execution des commandes
  - Créer un projet Persistance et enlever le DbContext du projet Application
  - Continuer à ajouter les fonctionnalitées du RestoConcept!
  - ...
