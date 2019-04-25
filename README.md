@@ -28,4 +28,4 @@ L'exemple ici est très simple, il manque plusieurs chose.
  - ...
 
 ## Troubleshooting
-Si le projet ne démarre pas en cliquant sur le bouton "Play" vérifier que c'est bien le projet RestoConpect qui est le projet de démarrage. Vous pouvez faire clique droit sur le porjet RestoConcept puis Définir comme projet de démarrage.
+Si le projet ne démarre pas en cliquant sur le bouton "Play" vérifier que c'est bien le projet RestoConpect qui est le projet de démarrage. Vous pouvez faire clique droit sur le projet RestoConcept puis Définir comme projet de démarrage.
