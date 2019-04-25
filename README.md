@@ -3,8 +3,8 @@ L'exercice réaliser en classe lors de la 4e seance de tutorat printemps 2019.
 
 Ceci est un exemple simple d'une application asp.net core MVC. 
 
-La règle d'affaire et l'application web sont dans deux projets différents.
-Ceci va rendre l'application testable et rendre l'application indépendante de la technologie utilisé pour le UI.
+La règles d'affaire et l'application web sont dans deux projets différents.
+Ceci va permetre de tester les règles d'affaire et de les rendre indépendantes de la technologie utiliser pour le UI.
 
 ## Réalisation
 
